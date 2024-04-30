@@ -18,15 +18,15 @@ export const LandingPage = () => {
     return (
         <>
             <div className="relative w-screen h-screen overflow-hidden">
-                <img src="../../../public/assets/hero.jpg" alt="Hero" className="absolute inset-0 w-full h-full object-cover"  />
+                <img src="/assets/hero.jpg" alt="Hero" className="absolute inset-0 w-full h-full object-cover"  />
                 <div className="absolute inset-0 flex justify-between mt-3 md:mt-5 mx-3 md:mx-8">
                     <p className="text-lg md:text-3xl cursor-pointer" style={{fontFamily: "sans-serif", color: "#5a5752"}}>FORNER</p>
                     <div className="flex">
                         {!isSmallScreen ? (<>
-                            <img src="../../../public/assets/menu-arrow.svg" className="mr-2 mt-2" style={{height: "15px"}} />
+                            <img src="/assets/menu-arrow.svg" className="mr-2 mt-2" style={{height: "15px"}} />
                         </>) : (
                             <>
-                                <img src="../../../public/assets/menu-arrow.svg" className="mr-2 mt-2" style={{height: "10px"}} />
+                                <img src="/assets/menu-arrow.svg" className="mr-2 mt-2" style={{height: "10px"}} />
                             </>
                         )}
                         <p className="text-lg md:text-3xl cursor-pointer" style={{fontFamily: "sans-serif", color: "#5a5752"}}>Menu</p>
